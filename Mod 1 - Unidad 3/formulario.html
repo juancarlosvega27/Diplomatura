@@ -9,6 +9,7 @@
 <body>
     <h1>Ingrese sus datos para contactarnos</h1>
     <form action="" method="">
+       <!-- Datos de Nombre y apellido -->
         <p>
             <label for="nom">Nombre</label>
             <input type="text" name="nombre">
@@ -16,7 +17,12 @@
         <p>
             <input type="text" name="apellido" placeholder="Apellido">
         </p>
+       <!-- Datos de contraseña -->
         <p>
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass"/>
+       <!-- Datos de sexo -->
+        </p>
             <label for="sexo">Sexo</label>
       
         <ul>
@@ -33,11 +39,50 @@
                 <label>No binario</label>
             </li>
          </ul>
+<!-- Detallo las opciones de hobbies -->
+         <Label> Hobbies </Label>
+         <ul>
+            <li>
+                <input type="checkbox" name="hobbies[]" value="Bailar" id="bailar"/>
+                <label for="bailar">Bailar</label>
+            </li>
+         
+            <li>
+                <input type="checkbox" name="hobbies []" value="cantar" id="cantar"/>
+                <label for="cantar">Cantar</label>
+            </li>
+            <li>
+                <input type="checkbox" name="hobies []" value="nadar" id="nadar"/>
+                <label for="nadar">Nadar</label>
+            </li>
+            <li>
+                <input type="checkbox" name="hobies []" value="correr" id="correr"/>
+                <label for="nadar">Correr</label>
+            </li>
+        </ul>
+        
+        <!-- Solicito nivel de estudios -->
+        <p>
+            <label for="tìtulo">Titulo</label>
+            <select name="tìtulo">
+                <Option value="primario">Primario</Option>
+                <Option value="secundario">Secundario</Option>
+                <option value="terciario">Terciario</option>
+                <option value="universitario">Uiversitario</option>
+            </select>
+        </p>
+        <!-- Doy opciòn para que escriba un comentario -->
+        <p>
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios"></textarea>
+        </p>
+       <!-- Opciòn final de enviar o borrar -->
+        <p>
+            <input type="submit" value="Enviar"/>
+            <input type="reset" value="borrar"/>
         </p>
         </form>
-          
-
-
+      
      
 </body>
 </html>
