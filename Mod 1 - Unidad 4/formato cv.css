@@ -1,5 +1,6 @@
 h1{
     background-color: #439A97;
+    font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #E6DDC4;
     text-align: right;
@@ -21,12 +22,61 @@ img{
     width: 50%;
     border-style: solid;
     border-color: #439A97;
+    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 10%;
 }
 h2{
+    font-size: 30px;
     text-align:left;
+    font-family: 'Trebuchet MS';
     color:#439A97;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-bottom:#439A97;
+    line-height: 100px;
+}
+h3{
+    font-family: 'Trebuchet MS'; 
+    background-color: #439A97;
+    font-size: 30px;
+    color:#E6DDC4;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align:right;
+    padding-right: 2%;
+    
+}
+ul{
+    font-family: fantasy;
+    font-size: 20px;
+    color:#439A97;
+    background-color: #E6DDC4;
+    line-height: 50px;
+}
+ol{
+    font-family: fantasy;
+    font-size: 20px;
+    color:#439A97;
+    background-color: #E6DDC4;
+    line-height: 50px;
+}
+.resaltarennegrita{
+    font-weight: bold;
+    font-size: 15px;
+}
+.parrafos{
+    background-color: #E6DDC4;
+    color: #439A97;
+    font-family: 'Trebuchet MS';
+    line-height: 30px;
+}
+.parrafofinal{
+    background-color: #439A97;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #E6DDC4;
+    text-align: right;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
