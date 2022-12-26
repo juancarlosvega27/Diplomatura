@@ -7,6 +7,13 @@ h1{
     padding-right: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a86700+13,9e8300+33,83a000+58,006e2e+78,006e2e+78,006e2e+100 */
+    background: rgb(168,103,0); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(168,103,0,1) 13%, rgba(158,131,0,1) 33%, rgba(131,160,0,1) 58%, rgba(0,110,46,1) 78%, rgba(0,110,46,1) 78%, rgba(0,110,46,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(168,103,0,1) 13%,rgba(158,131,0,1) 33%,rgba(131,160,0,1) 58%,rgba(0,110,46,1) 78%,rgba(0,110,46,1) 78%,rgba(0,110,46,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(168,103,0,1) 13%,rgba(158,131,0,1) 33%,rgba(131,160,0,1) 58%,rgba(0,110,46,1) 78%,rgba(0,110,46,1) 78%,rgba(0,110,46,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a86700', endColorstr='#006e2e',GradientType=1 ); /* IE6-9 */
+
 }
 /* hago que cada columna ocupe el 50% de ancho */
 .columna{
@@ -34,10 +41,12 @@ h2{
     color:#439A97;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 100px;
+    
 }
 h3{
     font-family: 'Trebuchet MS'; 
-    background-color: #439A97;
+    border-radius: 10px;
+    background: linear-gradient(to left, #439A97,white);
     font-size: 30px;
     color:#E6DDC4;
     padding-top: 2%;
@@ -65,18 +74,33 @@ ol{
     font-size: 15px;
 }
 .parrafos{
+    column-count: 2;
+    column-gap: 20px;
     background-color: #E6DDC4;
     color: #439A97;
     font-family: 'Trebuchet MS';
     line-height: 30px;
 }
 .parrafofinal{
-    background-color: #439A97;
+    margin-top: 30px;
+    border-radius: 25px;
+    box-shadow: -20px -20px 20px rgb(16, 19, 17);
+    background: linear-gradient(to left, #1f5857e1,white);
     font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Caramel', cursive;
     color: #E6DDC4;
     text-align: right;
     padding-right: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
+}
+/* .fa-solid{
+    color:rgb(49, 80, 59);
+    
+} */
+.chinche{
+    color: rgb(16, 88, 38);
+    font-size: 20px;
+    margin-bottom: 20px;
+    
 }
