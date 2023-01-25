@@ -1,0 +1,21 @@
+/* font-family: 'Mukta', sans-serif; */
+
+/* Aqui van los estilos del header */
+.cabecera{
+    background-color: #F7EFE5;
+    padding: 10px;
+    display:flex;
+    align-items: center;
+    }
+
+header h1{
+    /* font-family: 'Mukta', sans-serif; */
+    color: #3D1766;
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 15px;
+     
+}
+.logo{
+    border-radius: 10px;
+}
