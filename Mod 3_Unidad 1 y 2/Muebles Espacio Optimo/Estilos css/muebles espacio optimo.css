@@ -1,21 +1,245 @@
 /* font-family: 'Mukta', sans-serif; */
 
-/* Aqui van los estilos del header */
-.cabecera{
+/* /------------------------- Aqui van los estilos del header -----------------------------/ */
+.cabecera {
     background-color: #F7EFE5;
     padding: 10px;
-    display:flex;
+    display: flex;
     align-items: center;
-    }
+    justify-content: center;
+}
 
-header h1{
+header h1 {
     /* font-family: 'Mukta', sans-serif; */
     color: #3D1766;
+    text-shadow: 1px -1px 22px rgba(59, 50, 68, 0.86);
     font-size: 30px;
     font-style: italic;
-    margin-left: 15px;
-     
+    margin-left: 25px;
 }
-.logo{
+
+.logo {
     border-radius: 10px;
+    width: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 32px 27px 39px 5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 32px 27px 39px 5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 32px 27px 39px 5px rgba(0, 0, 0, 0.75);
+
+}
+
+/* ------------------------------Aquì empiezan los estilos de la barra de nav--------------------- */
+.menu {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #240941;
+    list-style: none;
+
+}
+
+.menu li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    display: block;
+
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a:hover {
+    background-color: #bbacca;
+    color: #240941;
+}
+
+/* ------Aquì terminan los estilos de la barra de nav------ */
+
+/* ---------Aqui van los estilos del home---------- */
+.mainindex {
+    margin: auto;
+    background-color: #201030;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.imghome {
+    background-color: #201030;
+    width: 30%;
+    align-content: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imghome img {
+    width: 300px;
+    border-radius: 100px 0px 0px 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.texthome {
+    background-color: #201030;
+    width: 70%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.texthome h3 {
+    text-align: center;
+    line-height: 30px;
+    border-radius: 10px;
+    /*  */
+    box-shadow: 12px 10px 28px 5px rgba(191, 167, 199, 0.75);
+    -webkit-box-shadow: 12px 10px 28px 5px rgba(191, 167, 199, 0.75);
+    -moz-box-shadow: 12px 10px 28px 5px rgba(191, 167, 199, 0.75);
+
+    border-radius: 0px 4px 117px 0px;
+    -webkit-border-radius: 0px 4px 117px 0px;
+    -moz-border-radius: 0px 4px 117px 0px;
+    background: #d0c3e5;
+    border: 5px none #5a3d5b;
+
+    color: #240941;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 50%;
+    padding: 40px;
+
+}
+/* ---------Aqui finalizan los estilos del home---------- */
+
+/* Aquí comienzan los estilos del quien somos */
+.mainquiensomos {
+    background-color: #240941;
+    color: #d0c3e5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px;
+}
+
+
+
+.contenedorintegrantes {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+
+}
+
+.cajaintegrante {
+    background-color: #d0c3e5;
+    color: #240941;
+    margin: 10px;
+    border-radius: 10px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cajaintegrante:hover {
+    background-color: #d0c3e5;
+    color: #240941;
+    margin: 10px;
+    box-shadow: 19px 23px 25px -4px rgba(211,193,224,0.88);
+    -webkit-box-shadow: 19px 23px 25px -4px rgba(211,193,224,0.88);
+    -moz-box-shadow: 19px 23px 25px -4px rgba(211,193,224,0.88);
+    border-radius: 10px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cajaintegrante img {
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    box-shadow: 24px 17px 26px 11px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 24px 17px 26px 11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 24px 17px 26px 11px rgba(0, 0, 0, 0.75);
+
+}
+/* Aquí terminan los estilos del quien somos */
+.mainnuestrosproductos{
+    background-color:#bbacca;
+    color: #d0c3e5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px;
+}
+
+.presentacionproducto{
+    background-color: #240941;
+    padding-top: 20px;
+    line-height: 50px;
+    padding-bottom: 20px;
+    border-radius: 0px 100px 100px 100px;
+    margin:30px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+}
+
+.presentacionproducto:hover{
+    background-color: #240941;
+    padding-top: 20px;
+    line-height: 50px;
+    padding-bottom: 20px;
+    box-shadow: 32px 27px 39px 5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 32px 27px 39px 5px rgba(0,0,0,0.75);
+-moz-box-shadow: 32px 27px 39px 5px rgba(0,0,0,0.75);
+    border-radius: 0px 100px 100px 100px;
+    margin:30px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+}
+.presentacionproducto img{
+    width: 200px;
+    border-radius: 0px 100px 100px 100px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/* Aquì comienzan los estilos de nuestros productos */
+
+
+
+/* Aquì terminan los estilos de nuestros productos */
+
+
+
+/* -------Aquí están los estilos del footer------------ */
+footer {
+    background-color: rgb(176, 166, 180);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #240941;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Segoe UI';
+    padding: 10px;
 }
