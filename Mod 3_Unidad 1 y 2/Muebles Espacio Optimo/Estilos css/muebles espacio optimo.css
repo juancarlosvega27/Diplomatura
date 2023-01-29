@@ -121,6 +121,7 @@ header h1 {
     padding: 40px;
 
 }
+
 /* ---------Aqui finalizan los estilos del home---------- */
 
 /* Aquí comienzan los estilos del quien somos */
@@ -158,9 +159,9 @@ header h1 {
     background-color: #d0c3e5;
     color: #240941;
     margin: 10px;
-    box-shadow: 19px 23px 25px -4px rgba(211,193,224,0.88);
-    -webkit-box-shadow: 19px 23px 25px -4px rgba(211,193,224,0.88);
-    -moz-box-shadow: 19px 23px 25px -4px rgba(211,193,224,0.88);
+    box-shadow: 19px 23px 25px -4px rgba(211, 193, 224, 0.88);
+    -webkit-box-shadow: 19px 23px 25px -4px rgba(211, 193, 224, 0.88);
+    -moz-box-shadow: 19px 23px 25px -4px rgba(211, 193, 224, 0.88);
     border-radius: 10px;
     width: 25%;
     display: flex;
@@ -179,21 +180,24 @@ header h1 {
     -moz-box-shadow: 24px 17px 26px 11px rgba(0, 0, 0, 0.75);
 
 }
+
 /* Aquí terminan los estilos del quien somos */
-.mainnuestrosproductos{
-    background-color:#bbacca;
+
+/* Aquì comienzan los estilos de nuestros productos */
+.mainnuestrosproductos {
+    background-color: #bbacca;
     color: #d0c3e5;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 15px;
 }
 
-.presentacionproducto{
+.presentacionproducto {
     background-color: #240941;
     padding-top: 20px;
     line-height: 50px;
     padding-bottom: 20px;
     border-radius: 0px 100px 100px 100px;
-    margin:30px;
+    margin: 30px;
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -201,36 +205,67 @@ header h1 {
     justify-content: space-between;
 }
 
-.presentacionproducto:hover{
+.presentacionproducto:hover {
     background-color: #240941;
     padding-top: 20px;
     line-height: 50px;
     padding-bottom: 20px;
-    box-shadow: 32px 27px 39px 5px rgba(0,0,0,0.75);
--webkit-box-shadow: 32px 27px 39px 5px rgba(0,0,0,0.75);
--moz-box-shadow: 32px 27px 39px 5px rgba(0,0,0,0.75);
+    box-shadow: 32px 27px 39px 5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 32px 27px 39px 5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 32px 27px 39px 5px rgba(0, 0, 0, 0.75);
     border-radius: 0px 100px 100px 100px;
-    margin:30px;
+    margin: 30px;
     display: flex;
     flex-direction: row;
     align-content: center;
     /* justify-content: center; */
     justify-content: space-between;
 }
-.presentacionproducto img{
+
+.presentacionproducto img {
     width: 200px;
     border-radius: 0px 100px 100px 100px;
     margin-left: 25px;
     margin-right: 25px;
 }
 
-/* Aquì comienzan los estilos de nuestros productos */
-
-
-
 /* Aquì terminan los estilos de nuestros productos */
 
+/* ---Aquí comienzan los estilos de galería--- */
 
+.maingaleria {
+    background-color: #bbacca;
+    padding: 15px;
+}
+
+.contenedorimagenes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedorimagenes img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.contenedorimagenes img:hover {
+    border: 9px groove #ad70b8;
+    box-shadow: 10px 10px 21px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 21px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 21px 0px rgba(0, 0, 0, 0.75);
+    width: 300px;
+    height: 300px;
+    transition: 200ms;
+}
+
+
+
+/* ----Aquí comienzan los estilos de galería---- */
 
 /* -------Aquí están los estilos del footer------------ */
 footer {
