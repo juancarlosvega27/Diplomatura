@@ -244,6 +244,7 @@ header h1 {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    height: 350px;
 }
 
 .contenedorimagenes img {
@@ -254,7 +255,7 @@ header h1 {
 }
 
 .contenedorimagenes img:hover {
-    border: 9px groove #ad70b8;
+    border: 9px groove rgba(191, 167, 199, 0.75);
     box-shadow: 10px 10px 21px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 10px 10px 21px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 21px 0px rgba(0, 0, 0, 0.75);
@@ -263,9 +264,9 @@ header h1 {
     transition: 200ms;
 }
 
-
-
 /* ----Aquí comienzan los estilos de galería---- */
+
+
 
 /* -------Aquí están los estilos del footer------------ */
 footer {
