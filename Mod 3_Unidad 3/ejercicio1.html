@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    
+</head>
+<script>
+    let distanciaUsuario = parseInt(prompt('Ingresa la distancia que necesitas recorrer en metros'));
+    if (distanciaUsuario>0 && distanciaUsuario< 1000) {
+        console.log("Sugiero que vayas a pie");
+    }
+    else if (distanciaUsuario >= 1000 && distanciaUsuario < 10000) {
+        console.log("Sugiero que vayas en bicicleta");
+    }
+    else if (distanciaUsuario >= 10000 && distanciaUsuario < 30000) {
+        console.log("Sugiero que vayas en colectivo");
+    }
+    else if (distanciaUsuario >= 30000 && distanciaUsuario < 100000) {
+        console.log("Sugiero que vayas en automovil");
+    }
+    else if (distanciaUsuario >= 100000) {
+        console.log("Sugiero que vayas en avión");
+    }
+</script>
+<body>
+    <!-- <script>
+        let distanciaUsuario= Prompt('Ingresa la distancia que necesitas recorrer en kilómetros')
+        
+    </script> -->
+</body>
+
+</html>

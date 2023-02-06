@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <script>
+        let numerosUsuario= [parseInt(prompt("Ingresa un primer número")),parseInt(prompt("Ingresa un segundo número")),parseInt(prompt("Ingresa un tercer número")),parseInt(prompt("Ingresa un cuarto número"))]
+        console.log(numerosUsuario)
+       if(numerosUsuario[0]>numerosUsuario[1] && numerosUsuario[0]>numerosUsuario[2] && numerosUsuario[0]>numerosUsuario[3]){
+        console.log("El número mayor es: "+ numerosUsuario[0] )
+       }else if(numerosUsuario[1]>numerosUsuario[0] && numerosUsuario[1]>numerosUsuario[2] && numerosUsuario[1]>numerosUsuario[3]){
+        console.log("El número mayor es: "+ numerosUsuario[1] )
+       }else if(numerosUsuario[2]>numerosUsuario[0] && numerosUsuario[2]>numerosUsuario[1] && numerosUsuario[2]>numerosUsuario[3]){
+        console.log("El número mayor es: "+ numerosUsuario[2] )
+       }else {
+        console.log("El número mayor es: "+ numerosUsuario[3] )
+       }
+       
+    </script>
+</body>
+</html>
