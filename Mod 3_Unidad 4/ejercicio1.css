@@ -1,0 +1,25 @@
+body{
+    background-color: aqua;
+}
+#contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+
+}
+#cuadradoRojo {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+#cuadradoVerde  {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+#cuadradoAzul  {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}

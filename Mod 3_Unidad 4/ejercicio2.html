@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+   
+</head>
+
+<body>
+    <textarea id="Textarea"></textarea>
+    <div id="contadordecaracteres"></div>
+    <script>
+
+        var textarea = document.getElementById("Textarea");
+
+        textarea.addEventListener("input", function () {
+
+            var longitud = textarea.value.length;
+
+            document.getElementById("contadordecaracteres").textContent = "Número de caracteres: " + longitud;
+        });
+
+    </script>
+</body>
+
+</html>
