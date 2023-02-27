@@ -1,0 +1,36 @@
+.maincontacto{
+    background-color:#d0c3e5;
+    color: #ded9e6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.maincontacto h2{
+    color: #240941;
+}
+.formulario{
+    width: 80%;
+}
+
+.formulario label{
+    color:#240941
+}
+
+.datoscontacto{
+    border-left: 5px solid #3D1766;
+    width: 40%;
+    padding: 50px;
+    line-height: 30px;
+}
+
+.datoscontacto h4{
+    color: #3D1766;
+}
+.datoscontacto h3{
+    color: #3D1766;
+    font-size: 30px;
+    text-shadow: 5px 2px 8px rgba(165, 137, 192, 0.82);
+}

@@ -1,0 +1,27 @@
+.cabecera {
+    background-color: #F7EFE5;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header h1 {
+    /* font-family: 'Mukta', sans-serif; */
+    color: #3D1766;
+    text-shadow: 1px -1px 22px rgba(59, 50, 68, 0.86);
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 25px;
+  }
+  
+  .logo {
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 32px 27px 39px 5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 32px 27px 39px 5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 32px 27px 39px 5px rgba(0, 0, 0, 0.75);
+  
+  }

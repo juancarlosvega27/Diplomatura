@@ -1,0 +1,27 @@
+.menu {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #240941;
+    list-style: none;
+
+}
+
+.menu li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    display: block;
+
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a:hover {
+    background-color: #bbacca;
+    color: #240941;
+}

@@ -1,0 +1,31 @@
+.maingaleria {
+    background-color: #bbacca;
+    padding: 15px;
+}
+
+.contenedorimagenes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 350px;
+}
+
+.contenedorimagenes img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.contenedorimagenes img:hover {
+    border: 9px groove rgba(191, 167, 199, 0.75);
+    box-shadow: 10px 10px 21px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 21px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 21px 0px rgba(0, 0, 0, 0.75);
+    width: 300px;
+    height: 300px;
+    transition: 200ms;
+}

@@ -1,11 +1,12 @@
 import React from "react";
+import '../styles/components/pages/ContactoPage.css';
 const ContactoPage = (props) => {
     return (
         <main className="maincontacto">
 
         <div>
             <h2>Contacto rápido</h2>
-            <form action="" method="" class="formulario">
+            <form action="" method="" className="formulario">
                 <p>
                     <label for="nombre">Nombre</label>
                     <input type="text" name=""/>
