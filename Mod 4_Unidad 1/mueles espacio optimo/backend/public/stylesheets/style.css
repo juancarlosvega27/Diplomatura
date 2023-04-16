@@ -25,3 +25,18 @@ header h1 {
   -moz-box-shadow: 32px 27px 39px 5px rgba(0, 0, 0, 0.75);
 
 }
+body{
+  margin:0;
+  padding:0;
+}
+
+footer {
+  background-color: rgb(176, 166, 180);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #240941;
+  font-style: italic;
+  text-align: center;
+  font-family: 'Segoe UI';
+  padding: 10px;
+}
