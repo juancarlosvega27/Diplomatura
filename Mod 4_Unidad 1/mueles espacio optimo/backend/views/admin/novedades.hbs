@@ -14,7 +14,7 @@
         </div>
 
         <div class="col-5 text-end">
-            <a class="btn btn-success" href=""> <i class="fa fa-plus" aria-hidden="true"></i>Nuevo</a>
+            <a class="btn btn-success" href="/admin/novedades/agregar"> <i class="fa fa-plus" aria-hidden="true"></i>Nuevo</a>
 
         </div>
         {{!-- Fin de fila 2 --}}
@@ -35,9 +35,9 @@
                             <th scope="row">{{id}}</th>
                             <td>{{titulo}}</td>
                             <td class="text-end">
-                                <a class="btn btn-secondary" href="">
+                                <a class="btn btn-sm btn-secondary" href="/admin/novedades/modificar/{{id}}">
                                     <i class="fa fa-pencil" aria-hidden="true"></i></a>
-                                <a class="btn btn-secondary" href="">
+                                <a class="btn btn-secondary" href="/admin/novedades/eliminar/{{id}}">
                                   <i class="fa fa-trash" aria-hidden="true"></i></a>
                             </td>
                         </tr>
