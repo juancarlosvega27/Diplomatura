@@ -1,6 +1,6 @@
 .menu {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #240941;
@@ -14,7 +14,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 10px;
     display: block;
-
+    transition: 300ms;
 }
 
 .menu li {
@@ -24,4 +24,5 @@
 .menu li a:hover {
     background-color: #bbacca;
     color: #240941;
+    transition: 300ms;
 }

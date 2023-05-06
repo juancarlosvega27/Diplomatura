@@ -18,6 +18,7 @@
     height: 150px;
     border-radius: 20px;
     margin: 15px;
+    transition: 200ms;
 }
 
 .contenedorimagenes img:hover {
@@ -29,3 +30,17 @@
     height: 300px;
     transition: 200ms;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .contenedorimagenes {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .contenedorimagenes img {
+      width: 100%;
+      height: auto;
+      margin: 15px 0;
+    }
+  }

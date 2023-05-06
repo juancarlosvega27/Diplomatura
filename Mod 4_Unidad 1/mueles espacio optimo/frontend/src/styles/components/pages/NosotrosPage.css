@@ -1,6 +1,6 @@
 .mainquiensomos {
-    background-color: #240941;
-    color: #d0c3e5;
+    background-color: #F7EFE5;
+    color: #1a0c31;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 15px;
 }
@@ -17,7 +17,7 @@
 }
 
 .cajaintegrante {
-    background-color: #d0c3e5;
+    background-color: #c6b5e19c;
     color: #240941;
     margin: 10px;
     border-radius: 10px;
@@ -30,11 +30,9 @@
 
 .cajaintegrante:hover {
     background-color: #d0c3e5;
-    color: #240941;
+    color: #4f2f72;
     margin: 10px;
-    box-shadow: 19px 23px 25px -4px rgba(211, 193, 224, 0.88);
-    -webkit-box-shadow: 19px 23px 25px -4px rgba(211, 193, 224, 0.88);
-    -moz-box-shadow: 19px 23px 25px -4px rgba(211, 193, 224, 0.88);
+    box-shadow: 9px 10px 10px -4px rgba(211, 193, 224, 0.88);
     border-radius: 10px;
     width: 25%;
     display: flex;
@@ -51,5 +49,28 @@
     box-shadow: 24px 17px 26px 11px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 24px 17px 26px 11px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 24px 17px 26px 11px rgba(0, 0, 0, 0.75);
+    transition: 200ms;
+}
 
+.cajaintegrante img:hover{
+    width: 250px;
+    height: 250px;
+    transition: 200ms;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .contenedorintegrantes {
+        flex-wrap: wrap;
+    }
+
+    .cajaintegrante {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .cajaintegrante img {
+        width: 120px;
+        height: 120px;
+    }
 }

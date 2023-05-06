@@ -9,19 +9,43 @@
   header h1 {
     /* font-family: 'Mukta', sans-serif; */
     color: #3D1766;
-    text-shadow: 1px -1px 22px rgba(59, 50, 68, 0.86);
+    text-shadow: 1px -1px 22px rgba(59, 50, 50, 0.86);
     font-size: 30px;
     font-style: italic;
     margin-left: 25px;
+    animation: color-change 2s infinite;
+  }
+  @keyframes color-change {
+    0% {
+      color: #10021f; /* Color inicial */
+    }
+    50% {
+      color: #9055ad; /* Color intermedio */
+    }
+    100% {
+      color: #10021f; /* Color final */
+    }
   }
   
-  .logo {
+  
+  
+  
+  
+  
+  
+  
+  
+  /* .logo {
     border-radius: 10px;
     width: 200px;
     margin-left: 15px;
     margin-right: 15px;
-    box-shadow: 32px 27px 39px 5px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 32px 27px 39px 5px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 32px 27px 39px 5px rgba(0, 0, 0, 0.75);
+     
+  } */
+  .logo {
+    transition: transform 0.3s ease;
+  }
   
+  .logo:hover {
+    transform: scale(1.2); /* Ajusta el valor según tu preferencia */
   }
